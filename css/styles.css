@@ -618,4 +618,22 @@ button:hover {
   .hero .right img {
     width: 300px;
   }
+
+
+  /* about section */
+
+  .about .container h1 a{
+    font-size: 3rem;
+  }
+
+  /* project section */
+  .projects .proj-container h1{
+    font-size: 1.3rem;
+  }
+  .projects .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
