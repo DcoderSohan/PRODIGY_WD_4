@@ -416,16 +416,16 @@ button:hover {
 
 /* project section starts here */
 
-.projects{
+#projects{
   background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(8, 8, 8, 1) 12%);
-  border: 1px solid white;
-  padding: 20px;
+
+  padding: 80px 20px;
 }
-.projects .proj-container{
+#projects .proj-container{
   padding: 50px 20px;
 }
 
-.projects .proj-container h1{
+#projects .proj-container h1{
   text-align: center;
   font-size: 1.7rem;
   font-weight: 600;
@@ -454,15 +454,16 @@ button:hover {
   align-items: center;
   gap: 50px;
 }
+
 .card {
   margin: 0 40px;
   border: 2px solid rgba(75,30,133,0.5);
-  background: linear-gradient(135deg, rgba(75,30,133,1) 0%, rgba(75,30,133,0.01) 100%);
+  background: url("img/Project-1.png");
+  /* background: linear-gradient(135deg, rgba(75,30,133,1) 0%, rgba(75,30,133,0.01) 100%); */
   position: relative;
   max-width: 250px;
-  height: 350px;
   border-radius: 5px;
-  padding: 1rem;
+  padding: 1.5rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -470,6 +471,12 @@ button:hover {
   gap: 7.5px;
   transition: 0.5s ease;
   color: white;
+}
+
+.card .img img{
+ max-width: 200px;
+ border: 1px solid white;
+ border-radius: 10px;
 }
 
 .card::after {
@@ -486,7 +493,7 @@ button:hover {
 }
 
 .cards:hover > .card:not(:hover) {
-  filter: blur(10px);
+  filter: blur(2px);
   transform: scale(0.9, 0.9);
 }
 
@@ -627,13 +634,14 @@ button:hover {
   }
 
   /* project section */
-  .projects .proj-container h1{
+  #projects .proj-container h1{
     font-size: 1.3rem;
   }
-  .projects .cards{
+  #projects .cards{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 80px;
   }
 }
