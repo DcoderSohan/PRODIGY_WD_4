@@ -542,6 +542,67 @@ button:hover {
 
 
 
+/* contact section starts here */
+.contact {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(8, 8, 8, 1) 12%);
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact .con-header h1{
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+  background: linear-gradient(
+    to right,
+    #c2b3ea,
+    #99b8f1,
+    #6abceb,
+    #41bed8,
+    #3abdbb,
+    #44c1ac,
+    #59c39a,
+    #72c486,
+    #83cd7f,
+    #96d676,
+    #acde6c,
+    #c5e562
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact form .input input {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.404);
+  padding: 8px 20px;
+  border-radius: 20px;
+  width: 350px;
+  color: white;
+  margin-bottom: 40px;
+}
+.contact form textarea {
+  background: transparent;
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  width: 350px;
+  margin-bottom: 40px;
+}
+.contact form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+}
+
+
+
 @media (max-width: 1046px) {
   .header {
     padding: 1.3rem 5%;
@@ -643,5 +704,18 @@ button:hover {
     align-items: center;
     flex-direction: column;
     margin-bottom: 80px;
+  }
+
+
+  /* contact section starts here */
+
+  .contact{
+    padding: 50px 0px;
+  }
+  .contact form{
+    padding: 28px;
+  }
+  .contact form .input input{
+    width: 250px;
   }
 }
