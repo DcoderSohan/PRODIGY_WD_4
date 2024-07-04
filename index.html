@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio || Sohan Sarang</title>
 
-    <!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico" /> -->
+    <link rel="icon" type="image/png" href="img/hero-boy.jpg" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -73,7 +73,7 @@
         <div class="cards">
           <div class="card">
             <div class="img">
-              <img src="img/Project-1.jpg" alt="img" />
+              <img src="img/project1.jpg" alt="img" />
             </div>
             <div class="details">
               <div class="cardHeader">Responsive Landing Page</div>
@@ -128,14 +128,15 @@
       </section>
 
       <!-- contact section starts here -->
+
       <section class="contact">
         <div class="con-header">
           <h1>Get In Touch</h1>
         </div>
-        <form action="">
+        <form action="" id="contactForm">
           <div class="input">
             <input
-              class="input1"
+              id="name"
               type="text"
               name="name"
               placeholder="Enter your name"
@@ -145,7 +146,7 @@
 
           <div class="input">
             <input
-              class="input1"
+              id="email"
               type="email"
               name="email"
               placeholder="Enter your email"
@@ -155,7 +156,7 @@
 
           <div class="input">
             <input
-              class="input1"
+              id="phone"
               type="tel"
               name="tel"
               placeholder="Enter your number"
@@ -165,7 +166,7 @@
 
           <div class="input">
             <input
-              class="input1"
+              id="message"
               type="textarea"
               name="message"
               placeholder="Enter your message"
@@ -173,11 +174,12 @@
             />
           </div>
 
-          <button><a href="">Send Message</a></button>
+          <button type="submit">Send Message</button>
         </form>
       </section>
     </main>
 
+    
     <script
       src="https://kit.fontawesome.com/18ec8c1ee1.js"
       crossorigin="anonymous"

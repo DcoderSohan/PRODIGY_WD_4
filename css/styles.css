@@ -8,16 +8,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(19, 84, 84);
+  background-color: #080808;
   color: white;
 }
 
-:root {
+/* :root {
 	--background: #005;
 	--primary: #88D5BF;
 	--secondary: #5D6BF8;
 	--third: #e27fcb;
-}
+} */
 
 .header {
   position: fixed;
