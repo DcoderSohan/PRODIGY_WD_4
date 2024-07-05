@@ -266,8 +266,7 @@ body {
   margin-bottom: 30px;
 }
 
-.about .info h1,
-h3 {
+.about .info h1,h3{
   text-align: center;
 }
 
@@ -364,9 +363,22 @@ h3 {
     font-size: 1rem;
   }
   .about .container .card-inner span{
-    font-size: 20px;
+    font-size: 19px;
+  }
+  .about .img img{
+    width: 150px;
   }
   .about .container .card-inner p{
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .about .info h1{
+    font-size: 24px;
+  }
+  .about .info h2{
+    font-size: 14px;
+  }
+  .about .info h3{
+    text-align: center;
+    font-size: 13px;
   }
 }

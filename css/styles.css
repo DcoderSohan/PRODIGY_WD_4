@@ -668,18 +668,27 @@ button:hover {
     gap: 30px;
     transition: 0.5s;
   }
+  .hero .left h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
   .hero .left p {
     font-size: 1.2rem;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
   }
   .hero .left .title {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
   }
   .hero .left .title1 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
   }
 
   button {
     font-size: 12px;
+    width: fit-content;
+    margin: 20px auto;
   }
 
   .hero .left .summery {
@@ -687,7 +696,7 @@ button:hover {
     width: 40vw;
   }
   .hero .right img {
-    width: 300px;
+    width: 250px;
   }
 
 
