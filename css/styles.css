@@ -463,7 +463,7 @@ button:hover {
   position: relative;
   max-width: 250px;
   border-radius: 5px;
-  padding: 1.5rem;
+  padding: 1.2rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -788,7 +788,6 @@ footer .footer-con .menu .list a:hover{
   }
   footer .footer-icon{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

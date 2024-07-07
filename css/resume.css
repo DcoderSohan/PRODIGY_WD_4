@@ -393,7 +393,6 @@ footer .footer-con .menu .list a:hover{
   }
   footer .footer-icon{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
